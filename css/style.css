@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+.column-flex{
+    display: flex;
+    flex-direction: column;
+}
+.row-flex{
+    display: flex;
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+aside{
+    box-shadow: 1px 1px 5px 1px rgb(237, 237, 237);
+    height: 100vh;
+    width: 370px;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 20px 8px;
+    background-color: rgba(128, 128, 128, 0.017);
+
+    overflow: auto;
+}
+aside .item{
+    cursor: pointer;
+    padding: 2px 10px;
+    margin: 1px 0;
+    border-radius: 7px;
+}
+aside .item:hover{
+    background-color: rgba(0, 0, 0, 0.062);
+}
+aside .item .text{
+    margin: 12px 0;
+    margin-left: 10px;
+}
+aside .item .text span{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.856);
+}
+aside .item:last-child .img{
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.065);
+    border-radius: 50%;
+}
+aside .item:last-child .img svg{
+    font-size: 20px;
+}
+
+
+
+
+
+
+aside .sidebar-top{
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 15px;
+}
+aside .sidebar-top .item:first-child .img img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+aside .sidebar-middle{
+    padding-top: 15px;
+}
+aside .sidebar-middle .section-name{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 12px;
+    color: #666;
+}
+aside .sidebar-middle .item .img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+aside .sidebar-bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    padding: 10px 20px;
+    
+}
+aside .sidebar-bottom span a{
+    color: #444444d1;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+}
+aside .sidebar-bottom span:last-child{
+    font-size: 12px;
+    color: #444444d1;
+    text-transform: capitalize;
+    
+
+}
